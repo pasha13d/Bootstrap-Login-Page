@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Project</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body background="ds.png">
+    <div class="container-fluid">
+        <div class="row" style="margin-top: 150px">
+            <div class="col-md-12 row justify-content-center align-items-center">
+                <div class="col-md-4"></div>
+                <div class="col-md-4 border border-0">
+                <form class="rounded bg-light" style="width: 500px; height: 220px;">
+                    <div class="form-group col-md-12">
+                        <label></label>
+                        <input type="text" class="form-control" id="userId" placeholder="User Id">
+                    </div> 
+            
+                    <div class="form-group col-md-12">
+                        <input type="text" class="form-control" id="password" placeholder="Password">
+                    </div>  
+               
+                    <div class="col-md-12">
+                        <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#demo" style="padding-left:0px;" id="btnSave">Forget Password?</button>
+                        <button type="button" class="btn float-right" style="background: rgb(117, 84, 167); color: white">Singed me in</button>
+                    </div>
+                    <div class="col-md-12" style="padding-left:0px;">
+                        <div id="demo" class="collapse">
+                            <div class="form-group">
+                                <input type="text" class="form-control col-md-8 mt-1" id="email" placeholder="Email">
+                                <button type="button" class="btn float-right col-md-4" style="background: rgb(117, 84, 167); color: white">Send Password</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+        
+        </div>
+    </div>
+
+</body>
+</html>
